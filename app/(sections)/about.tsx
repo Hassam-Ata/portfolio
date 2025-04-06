@@ -13,7 +13,7 @@ export function About() {
             Hassam Ata
           </h1>
           <h2 className="text-xl font-medium text-gray-400 md:text-2xl">
-            MERN Developer
+            MERN | NEXT_JSDeveloper
           </h2>
           <p className="text-gray-400 max-w-[750px] mx-auto">
             Passionate full-stack developer specializing in modern web
@@ -33,7 +33,7 @@ export function About() {
           </Link>
 
           <Link
-            href="https://github.com/"
+            href="https://github.com/Hassam-Ata"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-300"
@@ -43,7 +43,7 @@ export function About() {
           </Link>
 
           <Link
-            href="https://linkedin.com/in/"
+            href="https://www.linkedin.com/in/hassam-ata?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bxh3dzQgdROqUH66DcN7Ohw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-300"

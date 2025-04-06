@@ -25,14 +25,31 @@ export function Projects() {
         "Inngest",
       ],
       items: [
-        "Developed SenseAi, an AI-powered career advancement platform using Next.js, Prisma, and Neon PostgreSQL, enabling users to generate AI-driven industry insights, resumes, and cover letters.",
-        "Integrated Clerk authentication for secure user sign-ups and implemented Zod for robust form validation, ensuring data integrity.",
-        "Implemented an AI-powered interview preparation using Gemini API, generating MCQs and providing personalized feedback reports.",
-        "Automated weekly industry insights generation using Inngest cron jobs, enhancing user engagement with up-to-date market trends.",
+        <>
+          Developed SenseAi, an AI-powered career advancement platform using{" "}
+          <strong>Next.js</strong>, <strong>Prisma</strong>, and{" "}
+          <strong>Neon PostgreSQL</strong>, enabling users to generate AI-driven
+          industry insights, resumes, and cover letters.
+        </>,
+        <>
+          Integrated <strong>Clerk</strong> authentication for secure user
+          sign-ups and implemented <strong>Zod</strong> for robust form
+          validation, ensuring data integrity.
+        </>,
+        <>
+          Implemented an AI-powered interview preparation using{" "}
+          <strong>Gemini API</strong>, generating MCQs and providing
+          personalized feedback reports.
+        </>,
+        <>
+          Automated weekly industry insights generation using{" "}
+          <strong>Inngest</strong> cron jobs, enhancing user engagement with
+          up-to-date market trends.
+        </>,
       ],
       links: {
-        demo: "#",
-        github: "#",
+        demo: "https://sense-ai-five.vercel.app/",
+        github: "https://github.com/Hassam-Ata/SenseAI",
       },
     },
     {
@@ -50,13 +67,28 @@ export function Projects() {
         "MongoDB",
       ],
       items: [
-        "Developed a blogging platform with key functionalities including content creation, image and video uploads, commenting system, and post searching and filtering.",
-        "Built a backend using Node.js and Express.js to create a RESTful API, integrated Clerk for authentication, and used MongoDB as the primary database with Mongoose ODM for data management.",
-        "Designed the frontend with React.js, optimized state management using React Query, and styled the application with Tailwind CSS for a responsive and modern user interface.",
+        <>
+          Developed a blogging platform with key functionalities including
+          content creation, image and video uploads, commenting system, and post
+          searching and filtering.
+        </>,
+        <>
+          Built a backend using <strong>Node.js</strong> and{" "}
+          <strong>Express.js</strong> to create a <strong>RESTful API</strong>,
+          integrated <strong>Clerk</strong> for authentication, and used{" "}
+          <strong>MongoDB</strong> as the primary database with{" "}
+          <strong>Mongoose</strong> ODM for data management.
+        </>,
+        <>
+          Designed the frontend with <strong>React.js</strong>, optimized state
+          management using <strong>React Query</strong>, and styled the
+          application with <strong>Tailwind CSS</strong> for a responsive and
+          modern user interface.
+        </>,
       ],
       links: {
-        demo: "#",
-        github: "#",
+        demo: "https://www.youtube.com/watch?v=Z5Fy5rIEebs&feature=youtu.be",
+        github: "https://github.com/Hassam-Ata/Articulate",
       },
     },
   ];
@@ -68,7 +100,7 @@ export function Projects() {
       <div className="mx-auto grid gap-12 md:max-w-[64rem] mt-4">
         {projects.map((project, index) => (
           <div key={index}>
-            <Card className="border border-white bg-black/50 overflow-hidden">
+            <Card className="border border-white overflow-hidden">
               <div className="grid grid-cols-1 gap-6">
                 {/* Image always on top */}
                 <div className="relative aspect-video">

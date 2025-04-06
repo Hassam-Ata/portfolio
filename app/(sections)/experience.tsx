@@ -14,15 +14,12 @@ export function Experience() {
     <section id="experience" className="pt-20">
       <SectionTitle>Experience</SectionTitle>
 
-      <div
-        className="mx-auto grid gap-6 md:max-w-[64rem] md:grid-cols-1 mt-3"
-  
-      >
-        <Card className="border border-white bg-black/50 p-6 relative">
+      <div className="mx-auto grid gap-6 md:max-w-[64rem] md:grid-cols-1 mt-3">
+        <Card className="border border-white  p-6 relative">
           <div className="relative z-10">
             <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
               <div className="flex items-center gap-3">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-500/20 text-indigo-500">
+                <div className="flex items-center justify-center w-12 h-12 rounded-full text-indigo-500">
                   <BriefcaseIcon className="w-6 h-6" />
                 </div>
                 <div>

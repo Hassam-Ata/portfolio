@@ -7,8 +7,8 @@ export function Footer() {
   const contacts = [
     { icon: <Mail className="h-6 w-6" />, href: "mailto:hassamata86@gmail.com", label: "Email" },
     { icon: <Phone className="h-6 w-6" />, href: "tel:+923709167741", label: "Phone" },
-    { icon: <Linkedin className="h-6 w-6" />, href: "https://linkedin.com/in/", label: "LinkedIn" },
-    { icon: <Github className="h-6 w-6" />, href: "https://github.com/", label: "Github" },
+    { icon: <Linkedin className="h-6 w-6" />, href: "https://www.linkedin.com/in/hassam-ata?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bxh3dzQgdROqUH66DcN7Ohw%3D%3D", label: "LinkedIn" },
+    { icon: <Github className="h-6 w-6" />, href: "https://github.com/Hassam-Ata", label: "Github" },
   ]
 
   return (

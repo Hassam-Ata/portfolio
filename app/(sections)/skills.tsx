@@ -80,7 +80,7 @@ export function Skills() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 w-full max-w-7xl mx-auto">
         {skillsCategories.map((category, index) => (
           <div key={index}>
-            <Card className="border border-white bg-black/50 p-6 h-full">
+            <Card className="border border-white  p-6 h-full">
               <div className="flex items-center gap-4 mb-6">
                 <h3 className="text-xl font-bold">{category.title}</h3>
               </div>
