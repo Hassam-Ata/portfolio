@@ -13,12 +13,11 @@ export function About() {
             Hassam Ata
           </h1>
           <h2 className="text-xl font-medium text-gray-400 md:text-2xl">
-            MERN | NEXT_JSDeveloper
+            MERN | NEXT_JS Developer
           </h2>
           <p className="text-gray-400 max-w-[750px] mx-auto">
-            Passionate full-stack developer specializing in modern web
-            applications with Next.js, React, and Node. Based in Karachi,
-            Pakistan.
+            Pursuing a software engineering degree from <b>NED University</b>
+            .I'm learing full stack web development with and NEXT_JS.
           </p>
         </div>
 

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Navbar } from "@/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +44,14 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <main className="min-h-scree">
+            <div className="container mx-auto px-4 py-8">
+              <div className="space-y-24 py-8">
+                <Navbar />
+                {children}
+              </div>
+            </div>
+          </main>
         </ThemeProvider>
       </body>
     </html>

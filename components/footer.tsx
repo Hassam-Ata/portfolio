@@ -12,8 +12,8 @@ export function Footer() {
   ]
 
   return (
-    <footer className="border-t border-white/10 py-10 md:py-16 mt-24">
-      <div className="container flex flex-col items-center justify-between gap-8 md:flex-row">
+    <footer className="border-t border-white/10 py-3 md:py-3 mt-14">
+      <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <motion.p
           className="text-center text-gray-400 md:text-left"
           initial={{ opacity: 0, y: 20 }}

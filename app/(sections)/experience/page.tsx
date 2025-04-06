@@ -8,8 +8,9 @@ import {
   DatabaseIcon,
   ServerIcon,
 } from "lucide-react";
+import { Footer } from "@/components/footer";
 
-export function Experience() {
+const ExperiencePage=()=>{
   return (
     <section id="experience" className="pt-20">
       <SectionTitle>Experience</SectionTitle>
@@ -74,6 +75,8 @@ export function Experience() {
           </div>
         </Card>
       </div>
+      <Footer />
     </section>
   );
 }
+export default ExperiencePage;

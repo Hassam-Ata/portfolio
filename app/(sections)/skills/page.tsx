@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "@/components/footer";
 import { SectionTitle } from "@/components/section-title";
 import { Card } from "@/components/ui/card";
 
@@ -23,7 +24,7 @@ import {
 // Import VS Code icon from vsc package
 import { VscCode } from "react-icons/vsc";
 
-export function Skills() {
+const SkillsPage = () => {
   const skillsCategories = [
     {
       title: "Languages",
@@ -100,6 +101,8 @@ export function Skills() {
           </div>
         ))}
       </div>
+      <Footer />
     </section>
   );
-}
+};
+export default SkillsPage;
